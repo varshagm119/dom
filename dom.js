@@ -3,5 +3,13 @@ headerTitle.style.borderBottom='solid 3px #000';
 
 
 
-var li= document.getElementsByClassName('title');
-li[0].style.fontWeight=900
+var Title= document.getElementsByClassName('title');
+Title[0].style.fontWeight=900;
+
+
+var li= document.getElementsByClassName('list-group-item');
+li[2].style.backgroundColor='green';
+li[0].style.fontWeight=900;
+li[1].style.fontWeight=900;
+li[2].style.fontWeight=900;
+li[3].style.fontWeight=900;
