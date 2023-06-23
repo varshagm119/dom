@@ -13,3 +13,9 @@ li[0].style.fontWeight=900;
 li[1].style.fontWeight=900;
 li[2].style.fontWeight=900;
 li[3].style.fontWeight=900;
+
+var ite = document.getElementsByTagName('li');
+console.log(ite);
+for(var i=0;i<ite.length;i++){
+    ite[i].style.backgroundColor='grey'
+}
